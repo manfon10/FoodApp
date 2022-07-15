@@ -1,0 +1,11 @@
+export { default as Login } from './Login/Login';
+export { default as SignUp } from './SignUp/SignUp';
+export { default as Home } from './Home/Home';
+export { default as Food } from './Food/Food';
+export { default as Category } from './Category/Category';
+export { default as Profile } from './Profile/Profile';
+export { default as FoodAdminHome } from './Admin/FoodAdmin/FoodAdminHome';
+export { default as CategoryAdminHome } from './Admin/CategoryAdmin/CategoryAdminHome';
+export { default as OrdesAdminHome } from './Admin/OrderAdmin/OrdesAdminHome';
+export { default as FoodAdminForm } from './Admin/FoodAdmin/FoodAdminForm';
+export { default as CategoryAdminForm } from './Admin/CategoryAdmin/CategoryAdminForm';

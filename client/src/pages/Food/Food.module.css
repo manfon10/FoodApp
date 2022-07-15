@@ -1,0 +1,126 @@
+.container_food_detail {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    font-family: 'Archivo', sans-serif;
+}
+
+.container_food_detail > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.container_food_detail > div > img {
+    width: 30%;
+    margin-right: 20px;
+}
+
+.container_food_detail > div > div > div > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container_food_detail > div > div > h2 {
+    margin-bottom: 20px;
+}
+
+.container_food_detail > div > div > p {
+    margin-bottom: 10px;
+}
+
+.container_food_detail > div > div > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.container_food_detail > div > div > div > span {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: gray;
+}
+
+.container_food_detail > div > div > form {
+    margin-top: 20px;
+}
+
+.container_food_detail > div > div > form > input {
+    display: block;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 0px;
+    width: 100%;
+    background-color: rgba(214, 214, 214, 0.357);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.container_food_detail > div > div > form > button {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: rgb(41, 216, 132);
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 8px;
+    font-weight: 900;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+/*---- productos al detalle por la cateogria ------*/
+
+.container_foods_by_category {
+    display: flex;
+    background-color: rgb(228, 230, 233);
+}
+
+.foods_by_category {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-bottom: none;
+    margin-right: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 8px;
+}
+
+.foods_by_category > div {
+    margin-left: 5px;
+}
+
+.foods_by_category > div > img {
+    width: 150px;
+    height: 100px;
+}
+
+.data_food {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.data_food > span {
+    color: gray;
+    margin-top: 5px;
+}
+.data_food > div {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.data_food > div > i {
+    color: rgb(255, 174, 0);
+}

@@ -1,0 +1,180 @@
+.container_profile_user {
+    display: flex;
+    padding: 50px;
+    font-family: 'Archivo', sans-serif;
+}
+
+/*------ menu usuario------*/
+
+.container_nav_user {
+    width: 20%;
+    margin-right: 10px;
+    height: 400px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.container_nav_user > button {
+    width: 100%;
+    border: none;
+    background-color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    color: rgba(39, 39, 39, 0.552);
+    border-bottom: 1px solid rgba(158, 156, 156, 0.552);
+}
+
+.container_nav_user > button:hover {
+    color: #53e9a1;
+}
+
+.container_nav_user > button > i {
+    margin-right: 5px;
+    color: #29d884;
+}
+
+.data_user {
+    text-align: center;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid rgba(158, 156, 156, 0.552);
+}
+
+.data_user > span {
+    color: gray;
+}
+
+.data_user > p {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+/*----------- form user -----------*/
+
+.container_data_user {
+    width: 80%;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    padding: 10px;
+    font-family: 'Archivo', sans-serif;
+}
+
+.form_data_user {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_data_user > button {
+    border: none;
+    background-color: #29d884;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.user_info_one {
+    display: flex;
+    position: relative;
+}
+
+.user_info_one > div {
+    width: 50%;
+    margin: 10px;
+}
+
+.user_info_one > div > p, .user_info_two > p {
+    font-weight: 900;
+    color: rgba(83, 80, 80, 0.552);
+    margin-left: 10px;
+}
+
+.user_info_two {
+    margin: 10px;
+}
+
+.input_form_user {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgba(158, 156, 156, 0.552);
+    padding: 10px;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+/*----- orders-------*/
+
+.table_orders {
+    position: relative;
+    width: 100%;
+}
+
+.table_tbody > tr > td {
+    padding: 5px;
+}
+
+.table_tbody > tr > td > i {
+    color: rgb(255, 174, 0);
+    cursor: pointer;
+}
+
+.table_tbody > tr > td > img {
+    width: 60px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.table_tbody > tr > td > div > span {
+    font-size: 12px;
+    color: gray;
+}
+
+/*---- form qualification ..-----*/
+
+.container_form_qualification {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(146, 143, 143, 0.156);
+}
+
+.container_form_qualification > div {
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container_form_qualification > div > h3 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.container_form_qualification > div > h3 > i {
+    cursor: pointer;
+}
+
+.container_form_qualification > div > form > input {
+    display: block;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 0px;
+    width: 100%;
+    background-color: rgba(214, 214, 214, 0.357);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}

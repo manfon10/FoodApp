@@ -1,0 +1,89 @@
+.container_foods_category {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Archivo', sans-serif;
+}
+
+.container_foods_category > div {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+}
+
+.container_foods_category > div > a > img {
+    width: 250px;
+    height: 150px;
+}
+
+.container_foods_category > div > span {
+    color: gray;
+}
+
+.button_add_cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.button_add_cart > i {
+    font-size: 20px;
+    margin-right: 10px;
+    color: rgb(41, 216, 132);
+    cursor: pointer;
+}
+
+.title_and_cart_add {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.title_and_cart_add > i {
+    margin-right: 10px;
+}
+
+.data_qualification {
+    margin-top: 5px;
+}
+
+.data_qualification, .data_qualification > div {
+    display: flex;
+}
+
+.data_qualification > div {
+    margin-right: 10px;
+}
+
+.data_qualification > div > i {
+    color: rgb(255, 174, 0);
+}
+
+/*---barra de categorias home----*/
+
+.container_categories {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(228, 230, 233);
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+}
+
+.container_categories > a {
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.container_categories > a:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.container_categories > a > img {
+    width: 100px;
+}

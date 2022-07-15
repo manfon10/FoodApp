@@ -1,0 +1,108 @@
+.background_cart{
+    font-family: 'Archivo', sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(97, 96, 96, 0.306);
+}
+
+.container_cart {
+    display: flex;
+    position: fixed;
+    z-index: 900;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    height: calc(100vh - 0px);
+    background-color: white;
+    padding: 10px;
+    width: 250px;
+}
+
+.container_cart > h3 {
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+}
+
+.container_cart > h3 > i {
+    cursor: pointer;
+}
+
+.container_foods_in_cart {
+    margin: 10px;
+    width: 100%;
+}
+
+.foods_info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.container_foods_in_cart > div.foods_info > img {
+    width: 80px;
+    height: 50px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.container_foods_in_cart > div.foods_info > div {
+    width: 100%;
+}
+
+.container_foods_in_cart > div.foods_info > div > div > p {
+    font-size: 10px;
+}
+
+.food_actions_cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.food_actions_cart > div {
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+    padding: 2px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin-top: 5px;
+}
+
+.food_actions_cart > span {
+    font-size: 13px;
+}
+
+.food_actions_cart > div > span {
+    font-size: 12px;
+}
+
+.food_actions_cart > div > button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button_purchase {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button_purchase > button {
+    background-color: rgb(41, 216, 132);
+    font-family: 'Archivo', sans-serif;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    object-fit: contain;
+    border: none;
+    font-size: 14px;
+    line-height: 1.71;
+    cursor: pointer;
+    padding: 5px 15px 5px 15px;
+    font-weight: 900;
+}

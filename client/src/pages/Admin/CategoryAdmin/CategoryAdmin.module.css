@@ -1,0 +1,96 @@
+.container_category_admin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    font-family: 'Archivo', sans-serif;
+}
+
+/*----- form category -----*/
+
+.container_form_add_category {
+    margin-left: 40px;
+}
+
+.container_form_add_category > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_form_add_category > form > input {
+    display: block;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 14px;
+    border: 0px;
+    width: 100%;
+    background-color: rgba(214, 214, 214, 0.357);
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.container_form_add_category > form > button {
+    border: none;
+    background-color: #29d884;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.5;
+    text-align: center;
+    margin-top: 10px;
+    padding: 0 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+/* ------ category list -----*/
+
+.container_category_add {
+    margin-right: 20px;
+}
+
+.table_categories > thead > tr {
+    width: 200px;
+}
+
+.table_categories tbody > tr {
+    text-align: center;
+}
+
+.table_tbody_category > tr > td {
+    padding: 10px;
+}
+
+.category_button_edit {
+    border: none;
+    background-color: #29d884;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0 10px;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.category_button_delete {
+    border: none;
+    background-color: #ff441f;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.5;
+    text-align: center;
+    padding: 0 10px;
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}

@@ -1,0 +1,112 @@
+.container_food_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.food_title {
+    margin: 0 20px;
+    margin-top: 10px;
+    font-family: 'Archivo', sans-serif;
+}
+
+.container_food {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-family: 'Archivo', sans-serif;
+}
+
+.container_food > a {
+    text-decoration: none;
+    color: black;
+}
+
+.container_food > a > img {
+    width: 200px;
+    height: 120px;
+}
+
+.container_food > a > h3 {
+    margin-top: 10px;
+}
+
+.container_food > a > span {
+    color: gray;
+    font-size: 14px;
+}
+
+.container_food > a > p {
+    margin-top: 5px;
+}
+
+/*----- apartado top platos-----*/
+
+.title_top_foods {
+    font-family: 'Archivo', sans-serif;
+    margin: 10px 20px 0 20px;
+}
+
+.container_top_foods {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Archivo', sans-serif;
+    background-color: rgb(228, 230, 233);
+    margin-top: 10px;
+}
+
+.container_top_foods > a {
+    text-decoration: none;
+    color: black;
+    margin: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.container_top_foods > a > div > img {
+    width: 200px;
+    height: 120px;
+}
+
+.container_top_foods > a > h3 {
+    margin-top: 10px;
+}
+
+.container_top_foods > a > span {
+    color: gray;
+    font-size: 14px;
+}
+
+.container_top_foods > a > p {
+    margin-top: 5px;
+}
+
+.data_top_food {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.data_top_food > span {
+    color: gray;
+    margin-top: 5px;
+}
+.data_top_food > div {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.data_top_food > div > div > i {
+    color: rgb(255, 174, 0);
+}
+
+.price_top_food, .price_top_food > div {
+    display: flex;
+    justify-content: space-between;
+}
